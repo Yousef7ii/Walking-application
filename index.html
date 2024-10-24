@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق المشي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>تطبيق المشي</h1>
+        <button id="startButton">ابدأ المشي</button>
+        <button id="stopButton" disabled>أوقف المشي</button>
+        <div class="info">
+            <p>عدد الخطوات: <span id="steps">0</span></p>
+            <p>المسافة (متر): <span id="distance">0</span></p>
+            <p>السعرات الحرارية المحروقة: <span id="calories">0</span></p>
+        </div>
+        <button id="saveButton" disabled>احفظ المعلومات</button>
+        <div class="saved-data">
+            <h2>المعلومات المحفوظة</h2>
+            <ul id="savedRecords"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
